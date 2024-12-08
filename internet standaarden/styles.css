@@ -1,0 +1,505 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+body{
+    background-color: black ;
+}
+
+
+.main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Schermafbeelding\ 2024-11-29\ 012929.png);
+}
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+.navbar nav{
+    height: 70px;
+    float:left ;
+    width: 400px;
+}
+
+.icon .logo {
+    padding-left: 0px ;
+    width: 70px; 
+    height: auto; 
+}
+
+ul{ 
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    float: left;
+
+}
+
+ul li{
+    font-size: 16px;
+    margin-top: 27px;
+    margin-left: 60px;
+    list-style: none;
+
+}
+
+ul li a{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: red;
+    transition: 350ms ease-out;
+}
+
+
+.content h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+}
+
+.content h2{
+    margin-bottom: 6px;
+    font-family: "Frijole", serif;
+}
+
+.content .par {
+
+    font-size: 1em;
+    line-height: 1,2;
+    letter-spacing: 0,5px;
+    font-family: Arial;
+    color: black;
+    text-align: justify; 
+    word-wrap: break-word; 
+    max-width: 600px;
+
+}
+
+.content .par2  {
+
+    font-size: 1em;
+    line-height: 1,2;
+    letter-spacing: 0,5px;
+    font-family: Arial;
+    color: black;
+    text-align: justify; 
+    word-wrap: break-word; 
+    max-width: 600px; 
+    margin-bottom: 200px;
+}
+
+.content {
+      left: 20px; 
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: black;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.content .cn a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cn:hover{
+    background-color: red;
+    transition: 250ms ease-in;
+}
+
+.content span{
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+}
+
+
+.hero {
+    font-size: 25px;
+    color: red;
+    height: 50vh; 
+    justify-content: center;  
+    align-items: center;       
+    text-align: center;  
+    padding-top: 100px;              
+    font-family: "Nosifer", sans-serif;
+ 
+
+}
+
+ .small-img {
+    width: 15%;  
+    height: auto;
+    padding-left: 17px;
+   
+}
+ 
+.foto {
+    display: flex;                
+    justify-content: center;      
+    gap: 20px;                   
+    align-items: center;          
+}
+
+
+.par3 {
+    display: flex;             
+    justify-content: center;   
+    align-items: center; 
+    margin-bottom: 1em;  
+    font-size: 20px; 
+    font-family: "Nosifer", sans-serif;              
+}
+
+.par3 span{
+    font-size: 30px;
+    font-family: "Nosifer", sans-serif;
+    color: red;
+}
+
+.content h1 span{
+    font-size: 40px ;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.content h1{
+        font-family: "Nosifer", sans-serif;
+        font-weight: 400;
+        font-style: normal;   
+} 
+
+
+
+
+.keuze-zaak {
+    
+    margin-left: 2em;
+    padding: 1em;
+    margin-top: 8em;
+    margin-bottom: 5em;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; /* Stijl voor het lettertype van de sectie */
+}
+
+
+.keuze-zaak h2 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: left;
+    font-family: "Frijole", serif;; 
+
+}
+
+
+
+.keuze-zaak label {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+.keuze-zaak label:hover {
+    color: #e60000;
+    cursor: pointer;
+}
+
+
+
+
+.comment-box {
+    padding: 1em;
+    background-color: #f4f4f4;               
+    border-radius: 8px;         
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 40%;                 
+    margin-left: 2em;  
+    margin-bottom: 2em;     
+}
+
+
+.comment-box h2 {
+    font-size: 1.2em;            
+    color: #333;                 
+    text-align: left;          
+    margin-bottom: 1em;    
+    font-family: "Frijole", serif;;      
+}
+
+
+.input-box {
+    width: 70%;               
+    height: 30vh;             
+    padding: 10px;            
+    font-size: 1em;                    
+    border-radius: 4px;               
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aflevering-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.afbeelding {
+    width: 15em; 
+    height: auto;
+    margin-right: 1em; 
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+
+
+.tekst-1 {
+    max-width: 700px; 
+    margin-bottom: 4em;
+    color: white;
+}
+
+.tekst-1 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tekst p {
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.tekst-1 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+
+.aflevering-2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-2 {
+    max-width: 700px; 
+    margin-top: 2em;
+    color: white;
+}
+
+.tekst-2 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.tekst-2 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+
+.aflevering-3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-3 {
+    max-width: 700px; 
+    margin-top: 1em;
+    color: white;
+}
+
+.tekst-3 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.tekst-3 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+
+
+
+.aflevering-4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-4 {
+    max-width: 700px; 
+    margin-bottom: 2em;
+    color: white;
+
+}
+
+.tekst-4 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tekst-4 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+
+
+
+.aflevering-5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-5 {
+    max-width: 700px; 
+    margin-top: 0,5em;
+    color: white;
+
+}
+
+.tekst-5 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tekst-5 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+
+.aflevering-6 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em; 
+}
+
+.tekst-6 {
+    max-width: 700px; 
+    margin-top: 0,5em;
+    color: white;
+
+}
+
+.tekst-6 h2 {
+    font-size: 1,5em;
+    font-weight: bold;
+    color: white;
+        font-family: "Frijole", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.tekst-6 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
