@@ -5,7 +5,6 @@
 
 body{
     background-color: black ;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -284,6 +283,34 @@ ul li a:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .aflevering-1 {
     display: flex;
     align-items: center;
@@ -476,41 +503,3 @@ ul li a:hover{
     font-family: "Nosifer", sans-serif;
 }
 
-
-
-
-.persoon-1{
-    display: flex;
-    align-items: center;
-    margin-bottom: 8em; 
-}
-
-
-.persoon-2{
-    display: flex;
-    align-items: center;
-    margin-bottom: 8em; 
-}
-
-
-.persoon-3{
-    display: flex;
-    align-items: center;
-    margin-bottom: 8em; 
-}
-
-.tekst {
-    max-width: 700px; 
-    margin-top: 0,5em;
-    color: white;
-
-}
-
-.tekst h2 {
-    font-size: 1,5em;
-    font-weight: bold;
-    color: white;
-        font-family: "Frijole", serif;
-        font-weight: 400;
-        font-style: normal;
-}
