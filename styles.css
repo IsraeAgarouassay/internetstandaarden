@@ -1,0 +1,436 @@
+/* selecteert alle HTML-elementen op de pagina*/
+*{
+    padding: 0;
+    margin: 0;     
+}
+
+body{
+    background-color: black ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Navbar - Bovenste navigatiebalk   */
+.navbar {
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+.icon .logo {
+    padding-left: 0px ;
+    width: 70px; 
+    height: auto; 
+}
+
+.navbar nav{
+    height: 70px;
+    float: left;
+    width: 400px;
+}
+
+
+ul{ 
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+ul li{
+    font-size: 16px;
+    margin-top: 1em;
+    margin-left: 4em;
+} 
+
+
+ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: red;
+    transition: 350ms ease-out;
+}
+
+
+
+/* slogan aan de bovenkant en kopjes aflevering en over ons */
+.hoofdkop {
+    font-size: 25px;
+    color: red;
+    height: 50vh;       
+    text-align: center;  
+    padding-top: 100px;              
+    font-family: "Nosifer", sans-serif;
+ 
+
+}
+
+/* Content - kopje moorddossier   */
+.content span{
+    color: red;
+    font-size: 1.5em;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+}
+
+.content h1{
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    color: black;
+} 
+
+
+/* Content - tekst deel 1   */
+.content {
+  left: 20px; 
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  
+}
+
+.content .par {
+    font-size: 1em;
+    letter-spacing: 0,5px;
+    font-family: Arial;
+    color: black;
+    text-align: justify; 
+    max-width: 600px;
+}
+
+
+/* Content - bekijk knop   */
+.content .cn{
+    width: 30vh;
+    height: 3em;
+    background: black;
+    border: none;
+    margin-top: 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.content .cn a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cn:hover{
+    background-color: red;
+    transition: 250ms ease-in;
+}
+
+
+/* Content - tekst deel 2 */
+
+.content h2{
+    margin-bottom: 0.6em;
+    font-family: "Frijole", serif;
+}
+
+.content .par2  {
+    font-size: 1em;
+    line-height: 1,2;
+    font-family: Arial;
+    color: black;
+    text-align: justify; 
+    max-width: 600px; 
+    margin-bottom: 6em;
+}
+
+/* Content - populairste afleveringen */
+
+.par3 {
+    display: flex;             
+    justify-content: center;   
+    margin-bottom: 1em; 
+    margin-left: 6em; 
+    font-size: 1em; 
+    color: white;
+    font-family: "Nosifer", sans-serif;              
+}
+
+.par3 span{
+    font-size: 30px;
+    font-family: "Nosifer", sans-serif;
+    color: red;
+}
+
+.small-img {
+    width: 15%;  
+    height: auto;          /* Hoogte blijft in verhouding tot breedte */
+    padding-left: 17px;  
+}
+ 
+.foto {
+    display: flex;                
+    justify-content: center;      
+    gap: 20px;                   
+    margin-bottom: 8em;       
+}
+
+
+
+
+
+
+/* comment- reactie box */
+.comment-box {
+    padding: 1em;
+    background-color: #f4f4f4;               
+    border-radius: 8px;         
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 40%; 
+    margin-top: 2em;                
+    margin-left: 2em;  
+    margin-bottom: 2em;     
+}
+
+
+.comment-box h2 {
+    font-size: 1.2em;            
+    color: #333;                 
+    text-align: left;          
+    margin-bottom: 1em;    
+    font-family: "Frijole", serif;;      
+}
+
+
+.input-box {
+    width: 70%;               
+    height: 30vh;             
+    padding: 10px;            
+    font-size: 1em;                    
+    border-radius: 4px;               
+}
+
+
+/* afbeelding afleveringen */
+.afbeelding {
+    width: 15em; 
+    height: auto;
+    margin-right: 1em; 
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+
+/* aflevering 1 */
+
+.aflevering-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-1 {
+    max-width: 700px; 
+    margin-bottom: 4em;
+    color: white;
+    font-size: 1em;
+}
+
+.tekst-1 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+}
+
+.tekst-1 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+/* aflevering 2 */
+
+.aflevering-2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-2 {
+    max-width: 700px; 
+    margin-top: 2em;
+    color: white;
+    font-size: 1em;
+}
+
+.tekst-2 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+}
+
+.tekst-2 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+/* aflevering 3 */
+.aflevering-3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-3 {
+    max-width: 700px; 
+    margin-top: 1em;
+    color: white;
+    font-size: 1em;
+}
+
+.tekst-3 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+}
+
+.tekst-3 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+/* aflevering 4 */
+
+.aflevering-4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-4 {
+    max-width: 700px; 
+    margin-bottom: 2em;
+    color: white;
+    font-size: 1em;
+
+}
+
+.tekst-4 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+}
+
+.tekst-4 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+/* aflevering 5 */
+.aflevering-5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em; 
+}
+
+.tekst-5 {
+    max-width: 700px; 
+    margin-top: 0,5em;
+    color: white;
+    font-size: 1em;
+
+}
+
+.tekst-5 h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+}
+
+.tekst-5 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+/* aflevering 6 */
+.aflevering-6 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em; 
+}
+
+.tekst-6 {
+    max-width: 700px; 
+    margin-top: 0,5em;
+    color: white;
+    font-size: 1em;
+
+}
+
+.tekst-6 h2 {
+    font-size: 1,5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+        
+}
+
+.tekst-6 h2 span{
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+
+/* over ons */
+
+.persoon-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em; 
+}
+
+.persoon-2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em; 
+}
+
+.persoon-3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em; 
+}
+
+.tekst {  
+    max-width: 700px; 
+    margin-top: 0,5em;
+    color: white;
+
+}
+
+.tekst h2 {
+    font-size: 1,5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Frijole", serif;
+    font-weight: 400;
+}
