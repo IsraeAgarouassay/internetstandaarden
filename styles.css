@@ -96,5 +96,13 @@ main img {
 }
 
  
+img {
+    transition: transform 0.4s ease-in-out; 
+    margin-left: 1.5em;
+}
+
+img:hover {
+    transform: scale(1.2); 
+}
 
 
